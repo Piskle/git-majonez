@@ -1,0 +1,65 @@
+  396  mkdir git-majonez
+  397  ls
+  398  cd git-majonez/
+  399  git init
+  400  ls -la
+  401  touch main.cpp
+  402  vim main.cpp 
+  403  cat main.cpp 
+  404  g++ main.cpp 
+  405  ./a.out 
+  406  git add main.cpp 
+  407  git commit -m"Initial commit"
+  408  git log --pretty=oneline
+  409  vim main.cpp 
+  410  g++ main.cpp 
+  411  ./a.out 
+  412  git status
+  413  git add main.cpp 
+  414  git commit -m"Farewell changed"
+  415  git log --pretty=oneline
+  416  git remote add origin https://github.com/Piskle/git-majonez.git
+  417  ls -la
+  418  git push -u origin master
+  419  git branch -a
+  420  git branch cs
+  421  git branch -a
+  422  git checkout cs
+  423  git branch
+  424  git status
+  425  git log --pretty=oneline
+  426  git reset 6d9b06bd60f538984212e9a2ae5d9ce1b7f79884
+  427  git log --pretty=oneline
+  428  git status
+  429  vim main.cpp 
+  430  g++ main.cpp 
+  431  ./a.out 
+  432  git status
+  433  git add main.cpp 
+  434  git diff
+  435  git diff --staged
+  436  git commit -m"Greetings"
+  437  git log --pretty=oneline
+  438  git push origin cs
+  439  git checkout master 
+  440  git branch 
+  441  git merge cs
+  442  git status
+  443  vim main.cpp 
+  444  g++ main.cpp 
+  445  ./a.out 
+  446* git 
+  447  git merge cs
+  448  git add main.cpp 
+  449  git merge cs
+  450  git commit main.cpp 
+  451  vim main.cpp 
+  452  git add main.cpp 
+  453  git commit main.cpp 
+  454  git commit -m 
+  455  git commit -m . 
+  456  git log --pretty=oneline 
+  457  git merge cs
+  458  history
+  459  historry | tail -64 >> history.txt
+  460  history | tail -65 >> history.txt
